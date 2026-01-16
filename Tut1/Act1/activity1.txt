@@ -1,0 +1,3 @@
+Number of finished exercises: 25
+Time spent: 10 (minutes)
+Number of exercises which need Googling: 8
