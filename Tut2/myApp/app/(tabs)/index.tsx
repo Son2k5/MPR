@@ -71,7 +71,7 @@ export default function DomineeringGame() {
     }
   };
 
-  const hasValidMoves = (player) => {
+  const hasValidMoves = (player:number) => {
     for (let i = 0; i < SIZE; i++) {
       for (let j = 0; j < SIZE; j++) {
         if (player === VERTICAL) {
