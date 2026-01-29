@@ -122,7 +122,7 @@ export default function App() {
         </p>
       ) : (
         <p className="text-xl font-bold text-green-600">
-          🎉 Player {winner} Thắng! 🎉
+           Player {winner} Thắng! 
         </p>
       )}
 
