@@ -43,6 +43,7 @@ export  default function List(){
     }
     const deleteTask  = (id : string) =>{
         setTaskList(taskList.filter( e => e.id !== id));
+        console.log(id);
     }
     const toggleTask  = (id: string) =>{
         setTaskList(taskList.map( e => e.id === id ? {...e, completed : !e.completed}: e))
