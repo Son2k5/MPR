@@ -98,11 +98,12 @@ const styles = StyleSheet.create({
   },
   btnText: { color: '#fff', fontWeight: 'bold' },
   backButton: {
+    marginTop:15,
   marginBottom: 15,
 },
 backButtonText: {
   fontSize: 16,
-  color: '#2196F3',
+  color: '#fff',
   fontWeight: '600',
 },
 

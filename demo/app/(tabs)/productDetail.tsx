@@ -1,8 +1,9 @@
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
-import { router, useLocalSearchParams } from 'expo-router';
+import { useRouter, useLocalSearchParams } from 'expo-router';
 import { Stack } from 'expo-router';
 
 export default function ProductDetailScreen() {
+    const router = useRouter();
   const {
     id = 'N/A',
     name = 'Unknown',
@@ -52,14 +53,13 @@ const styles = StyleSheet.create({
   divider: { height: 1, backgroundColor: '#ddd', marginVertical: 15 },
   label: { fontSize: 18, fontWeight: 'bold' },
   desc: { fontSize: 16, color: '#666' },
-      backButton: {
-        marginTop: 15,
-       marginBottom: 15,
-},
-backButtonText: {
-  fontSize: 16,
-  color: '#fff',
-  fontWeight: '600',
-},
-
+        backButton: {
+            marginTop: 10,
+    marginBottom: 15,
+    },
+    backButtonText: {
+    fontSize: 16,
+    color: '#fff',
+    fontWeight: '600',
+    },
 });
